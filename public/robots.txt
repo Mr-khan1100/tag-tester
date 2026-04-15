@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://adtagtester.pro/sitemap.xml
+Sitemap: https://adtagtester.netlify.app/sitemap.xml
