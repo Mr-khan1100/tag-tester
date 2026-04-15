@@ -10,7 +10,7 @@ import AdMobSidebar from '@/components/AdMobSidebar';
 export default function TesterApp() {
   return (
     <TesterProvider>
-      <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', overflow: 'hidden' }}>
         <Header />
 
         <div style={{ display: 'flex', flex: 1, overflow: 'hidden' }}>

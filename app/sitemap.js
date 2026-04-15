@@ -1,9 +1,11 @@
+import { SITE_URL } from '@/lib/site';
+
 export default function sitemap() {
   return [
     {
-      url: 'https://adtagtester.netlify.app',
+      url: SITE_URL,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'weekly',
       priority: 1,
     },
   ];

@@ -1,4 +1,5 @@
 import './globals.css';
+import { GOOGLE_SITE_VERIFICATION } from '@/lib/site';
 
 const SITE_URL = 'https://adtagtester.netlify.app';
 
@@ -57,7 +58,7 @@ export const metadata = {
       'Test VAST, native, banner, video, audio & interstitial ad creatives instantly. Real-time HTTP event logs. Free, no signup.',
     images: [
       {
-        url: '/og-image.png',
+        url: '/favicon.svg',
         width: 1200,
         height: 630,
         alt: 'Ad Tag Tester Pro – Free Online Creative Testing Tool',
@@ -65,17 +66,17 @@ export const metadata = {
     ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     title: 'Ad Tag Tester Pro – Free VAST & Creative Tester',
     description:
       'Debug VAST, native, banner, video & interstitial ad tags with real-time event logs. Free online tool.',
-    images: ['/og-image.png'],
+    images: ['/favicon.svg'],
   },
   alternates: {
-    canonical: SITE_URL,
+    canonical: '/',
   },
   verification: {
-    google: 'your-google-site-verification-token',
+    google: GOOGLE_SITE_VERIFICATION,
   },
 };
 
@@ -104,7 +105,7 @@ const jsonLd = {
     'Device simulation (desktop, tablet, mobile)',
     'Screen rotation simulation',
   ],
-  screenshot: `${SITE_URL}/og-image.png`,
+  screenshot: `${SITE_URL}/favicon.svg`,
   author: {
     '@type': 'Organization',
     name: 'AdTag Tester Pro',
