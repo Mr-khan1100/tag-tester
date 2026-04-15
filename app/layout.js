@@ -8,6 +8,9 @@ export const metadata = {
     default: 'Ad Tag Tester – Free Online VAST, Native & Banner Creative Tester',
     template: '%s | Ad Tag Tester Pro',
   },
+  icons: {
+    icon: '/favicon.svg',
+  },
   description:
     'Free online ad tag tester. Instantly test VAST, native, banner, video, audio & interstitial ad creatives. Debug tags with real-time HTTP event logs. No signup required.',
   keywords: [
@@ -158,6 +161,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Syne:wght@400;600;700;800&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" href="/favicon.svg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
