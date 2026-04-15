@@ -1,6 +1,6 @@
 import './globals.css';
 
-const SITE_URL = 'http://adtagtester.pro';
+const SITE_URL = 'https://adtagtester.netlify.app';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
