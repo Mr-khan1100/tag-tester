@@ -6,24 +6,29 @@ export default function Home() {
       {/* Visible crawlable heading content */}
       <h1
         style={{
-          maxWidth: 1200,
+          Width: 1,
+          height: 1,
+          overflow: 'hidden',
+          clip: 'rect(0 0 0 0)',
+          whiteSpace: 'nowrap',
           margin: '0 auto',
-          padding: '48px 24px 18px',
-          fontSize: 'clamp(2.4rem, 6vw, 4.6rem)',
-          lineHeight: 1,
-          letterSpacing: '-0.05em',
+          // padding: '48px 24px 18px',
+          // fontSize: 'clamp(2.4rem, 6vw, 4.6rem)',
+          // lineHeight: 1,
+          // letterSpacing: '-0.05em',
         }}
       >
         Ad Tag Tester – Free Online VAST, Native & Banner Creative Testing Tool
       </h1>
       <p
         style={{
-          maxWidth: 1200,
+          Width: 1,
+          height: 1,
+          overflow: 'hidden',
+          clip: 'rect(0 0 0 0)',
+          whiteSpace: 'nowrap',
           margin: '0 auto',
-          padding: '0 24px 28px',
-          color: 'var(--text2)',
-          fontSize: 'clamp(1rem, 1.4vw, 1.15rem)',
-          lineHeight: 1.7,
+          // padding: '48px 24px 18px',
         }}
       >
         Free online ad tag tester for previewing creatives, validating trackers, and debugging
@@ -37,11 +42,15 @@ export default function Home() {
       <section
         aria-label="About Ad Tag Tester Pro"
         style={{
-          maxWidth: 1200,
-          margin: '0 auto',
-          padding: '56px 24px 80px',
-          lineHeight: 1.7,
-          color: 'var(--text2)',
+          width: 1,
+          height: 1,
+          overflow: 'hidden',
+          clip: 'rect(0 0 0 0)',
+          whiteSpace: 'nowrap',
+          // margin: '0 auto',
+          // padding: '56px 24px 80px',
+          // lineHeight: 1.7,
+          // color: 'var(--text2)',
         }}
       >
         <h2 style={{ fontSize: 'clamp(1.8rem, 3vw, 2.5rem)', marginBottom: 14, color: 'var(--text)' }}>
