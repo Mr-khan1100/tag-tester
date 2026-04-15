@@ -1,6 +1,6 @@
 import './globals.css';
 
-const SITE_URL = 'https://adtagtester.pro';
+const SITE_URL = 'http://adtagtester.pro';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),

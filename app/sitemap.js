@@ -1,7 +1,7 @@
 export default function sitemap() {
   return [
     {
-      url: 'https://adtagtester.pro',
+      url: 'http://adtagtester.pro',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
