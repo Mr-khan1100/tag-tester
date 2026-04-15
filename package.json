@@ -1,0 +1,29 @@
+{
+  "name": "adtag-tester-pro",
+  "version": "1.0.0",
+  "description": "Free online ad tag tester for VAST, Native, Banner, Video, Audio and Interstitial creatives",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "ad tag tester",
+    "creative tester",
+    "VAST tester",
+    "banner ad tester",
+    "native ad tester",
+    "programmatic advertising"
+  ],
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
